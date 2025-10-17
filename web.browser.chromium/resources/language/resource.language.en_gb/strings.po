@@ -1,0 +1,695 @@
+# Kodi Media Center language file
+# Addon Name: Chromium web browser
+# Addon id: web.browser.chromium
+# Addon Provider: Alwin Esch, Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI Main\n"
+"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (United States) (http://www.transifex.com/projects/p/kodi-main/language/en_US/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Chromium web browser - SUID sandbox helper"
+msgstr ""
+
+msgctxt "#30001"
+msgid "The SUID sandbox helper binary is missing!\nAborting now the start of web browser add-on.\n\nSee https://github.com/kodi-web/web.browser.chromium/wiki/Linux-SUID-Sandbox for details."
+msgstr ""
+
+msgctxt "#30002"
+msgid "The SUID sandbox helper binary need after add-on installation one time configured correctly.\nPlease enter super user password.\n\nSee https://github.com/kodi-web/web.browser.chromium/wiki/Linux-SUID-Sandbox for details."
+msgstr ""
+
+msgctxt "#30003"
+msgid "Please enter SUID password"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Website zoom level"
+msgstr ""
+
+msgctxt "#30005"
+msgid "{0:d} %"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Website zoom step"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Presentation"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Security / data protection"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Downloads"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Before downloading files, ask for the location"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Location"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Password"
+msgstr ""
+
+msgctxt "#300013"
+msgid "Text"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Text area"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Finished"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Delete"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Complete"
+msgstr ""
+
+msgctxt "#30018"
+msgid "From history"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Select file"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Select multiple files"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Select directory"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Save file"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Content settings"
+msgstr ""
+
+#. settings.xml
+#: Selection of external access to Kodi interface
+msgctxt "#30024"
+msgid "Web to Kodi access rights"
+msgstr ""
+
+#. settings.xml
+#: Selection of external access to Kodi interface (help text)
+msgctxt "#30025"
+msgid "Allow websites to access Kodi"
+msgstr ""
+
+#. settings.xml
+#: Selection of external access to Kodi interface (list entry)
+msgctxt "#30026"
+msgid "No"
+msgstr ""
+
+#. settings.xml
+#: Selection of external access to Kodi interface (list entry)
+msgctxt "#30027"
+msgid "Local websites (starts with file://)"
+msgstr ""
+
+#. settings.xml
+#: Selection of external access to Kodi interface (list entry)
+msgctxt "#30028"
+msgid "Local websites and known URL's"
+msgstr ""
+
+#. settings.xml
+#: Selection of external access to Kodi interface (list entry)
+msgctxt "#30029"
+msgid "Every website (Warning: this may allow uncontrollable external access!)"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Allow"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Block"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30033"
+msgid "JavaScript Alert"
+msgstr ""
+
+msgctxt "#30034"
+msgid "JavaScript Confirm"
+msgstr ""
+
+msgctxt "#30035"
+msgid "JavaScript Prompt: %s"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Is it OK to leave/reload this page?"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Text search"
+msgstr ""
+
+msgctxt "#30038"
+msgid "%i times '%s' found"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Allow websites to open new tabs"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Mouse cursor change disabled"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Control"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Show editing dialog direct after field select"
+msgstr ""
+
+#. /src/addon/interface/JSException.cpp
+#: Text dialog header
+msgctxt "#30043"
+msgid "JavaScript exception"
+msgstr ""
+
+#. /src/addon/interface/JSException.cpp
+#: JS exception text top position
+msgctxt "#30044"
+msgid "The website generated a JavaScript exception and interrupted the further process.\n\n"
+msgstr ""
+
+#. /src/addon/interface/JSException.cpp
+#: JS exception text
+msgctxt "#30045"
+msgid "Exception: %s\n"
+msgstr ""
+
+#. /src/addon/interface/JSException.cpp
+#: JS exception text
+msgctxt "#30046"
+msgid "Source function: %s\n"
+msgstr ""
+
+#. /src/addon/interface/JSException.cpp
+#: JS exception text
+msgctxt "#30047"
+msgid "Resource name: %s\n\n"
+msgstr ""
+
+#. /src/addon/interface/JSException.cpp
+#: JS exception text
+msgctxt "#30048"
+msgid "Stack:\n"
+msgstr ""
+
+#. /src/addon/interface/JSException.cpp
+#: JS exception text
+msgctxt "#30049"
+msgid " - Line %05i: Column %05i: Function: %s(...)\n   URL: %s\n"
+msgstr ""
+
+#. settings.xml
+#: Settings uncaught exception stack size (with 0 it is disabled)
+msgctxt "#30050"
+msgid "Uncaught exception stack size to show"
+msgstr ""
+
+#. settings.xml
+#: Settings uncaught exception stack size help
+msgctxt "#30051"
+msgid "To represent unrecognized exceptions, this is for testing purposes and should not be taken as a standard."
+msgstr ""
+
+#. settings.xml
+#: Settings uncaught exception stack size 0 selection
+msgctxt "#30052"
+msgid "Off"
+msgstr ""
+
+#. settings.xml
+#: Boolean to enable browser extensions
+msgctxt "#30053"
+msgid "Enable browser extensions"
+msgstr ""
+
+#. settings.xml
+#: Help for boolean to enable browser extensions
+msgctxt "#30054"
+msgid "This enables the use of Chromium browser extensions"
+msgstr ""
+
+# empty strings
+
+msgctxt "#30080"
+msgid "Chromium web browser"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Download path not defined, set it now"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Download: %s"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Total: %li MByte, Received: %li MByte"
+msgstr ""
+
+msgctxt "#30084"
+msgid "File '%s' already on download"
+msgstr ""
+
+msgctxt "#30085"
+msgid "File already present on selected location"
+msgstr ""
+
+msgctxt "#30086"
+msgid "Overwrite"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Cancel download"
+msgstr ""
+
+msgctxt "#30088"
+msgid "Error"
+msgstr ""
+
+msgctxt "#30089"
+msgid "File '%s' not possible to delete, download canceled"
+msgstr ""
+
+msgctxt "#30090"
+msgid "%0.1f %%, Total: %li MByte, Received: %li MByte"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Delete download"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Cancel download"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Pause download"
+msgstr ""
+
+msgctxt "#30094"
+msgid "Continue download"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Paused (%s)"
+msgstr ""
+
+msgctxt "#30096"
+msgid "Canceled"
+msgstr ""
+
+msgctxt "#30097"
+msgid "Clear History"
+msgstr ""
+
+msgctxt "#30098"
+msgid "Delete downloaded file %s?"
+msgstr ""
+
+
+
+msgctxt "#30100"
+msgid "Back"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Forward"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Undo"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Redo"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Cut"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Copy"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Paste"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Delete"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Select all"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Print…"
+msgstr ""
+
+msgctxt "#30132"
+msgid "View page source"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Page failed to load"
+msgstr ""
+
+# Empty places
+
+msgctxt "#30188"
+msgid "Start URL"
+msgstr ""
+
+msgctxt "#30189"
+msgid "Set URL of first opened site"
+msgstr ""
+
+msgctxt "#30190"
+msgid "System"
+msgstr ""
+
+#: Settings group entry
+msgctxt "#30191"
+msgid "Logging"
+msgstr ""
+
+# Empty places
+
+#. settings.xml
+#: Settings group entry
+msgctxt "#30193"
+msgid "DRM configuration"
+msgstr ""
+
+#. settings.xml
+#: Boolean to enable/disable DRM widevine support
+msgctxt "#30194"
+msgid "DRM over Widevine"
+msgstr ""
+
+#. settings.xml
+#: Boolean to enable/disable DRM widevine support
+msgctxt "#30195"
+msgid "Digital Rights to Manage—DRM technologies enable a broad range of business models"
+msgstr ""
+
+#. WidevineControl.cpp
+#: File selection dialog to select widevine library
+msgctxt "#30196"
+msgid "Select the optional for DRM required '%s' library"
+msgstr ""
+
+#. WidevineControl.cpp
+#: Yes/no dialog header
+msgctxt "#30197"
+msgid "DRM required widevine library"
+msgstr ""
+
+#. WidevineControl.cpp
+#: Yes/no dialog header
+msgctxt "#30198"
+msgid "Do you want to try on next start to add this library?"
+msgstr ""
+
+# Empty places
+
+msgctxt "#30200"
+msgid "Chromium log severity"
+msgstr ""
+
+msgctxt "#30201"
+msgid "Default logging"
+msgstr ""
+
+msgctxt "#30202"
+msgid "Verbose logging"
+msgstr ""
+
+msgctxt "#30203"
+msgid "Info logging"
+msgstr ""
+
+msgctxt "#30204"
+msgid "Warning logging"
+msgstr ""
+
+msgctxt "#30205"
+msgid "Error logging"
+msgstr ""
+
+msgctxt "#30206"
+msgid "Completely disable logging"
+msgstr ""
+
+#: CEF context menu entry
+msgctxt "#30220"
+msgid "Adobe Flash Player"
+msgstr ""
+
+#: CEF context menu entry
+msgctxt "#30221"
+msgid "Run this plug-in"
+msgstr ""
+
+#: CEF context menu entry
+msgctxt "#30222"
+msgid "Hide this plug-in"
+msgstr ""
+
+msgctxt "#30300"
+msgid "Cookies"
+msgstr ""
+
+msgctxt "#30301"
+msgid "Name:"
+msgstr ""
+
+msgctxt "#30302"
+msgid "Content:"
+msgstr ""
+
+msgctxt "#30303"
+msgid "Domain:"
+msgstr ""
+
+msgctxt "#30304"
+msgid "Path:"
+msgstr ""
+
+msgctxt "#30305"
+msgid "Only HTTPS requests:"
+msgstr ""
+
+msgctxt "#30306"
+msgid "Accessible for script:"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Has expire date:"
+msgstr ""
+
+msgctxt "#30308"
+msgid "Created:"
+msgstr ""
+
+msgctxt "#30309"
+msgid "Last access:"
+msgstr ""
+
+msgctxt "#30310"
+msgid "Expiry:"
+msgstr ""
+
+msgctxt "#30311"
+msgid "yes"
+msgstr ""
+
+msgctxt "#30312"
+msgid "no"
+msgstr ""
+
+msgctxt "#30313"
+msgid "Delete selected cookie"
+msgstr ""
+
+msgctxt "#30314"
+msgid "Delete all cookies"
+msgstr ""
+
+msgctxt "#30315"
+msgid "Search cookie"
+msgstr ""
+
+msgctxt "#30316"
+msgid "Open settings"
+msgstr ""
+
+msgctxt "#30317"
+msgid "Cookie '%s' not found"
+msgstr ""
+
+msgctxt "#30318"
+msgid "Continue search"
+msgstr ""
+
+msgctxt "#30319"
+msgid "Delete all of selected domain"
+msgstr ""
+
+msgctxt "#30320"
+msgid "Deleting Cookies"
+msgstr ""
+
+msgctxt "#30321"
+msgid "Work in progress"
+msgstr ""
+
+msgctxt "#30322"
+msgid "%i cookies deleted"
+msgstr ""
+
+msgctxt "#30323"
+msgid "Cookies"
+msgstr ""
+
+msgctxt "#30324"
+msgid "Use current as start site"
+msgstr ""
+
+msgctxt "#30325"
+msgid "Swap board position"
+msgstr ""
+
+msgctxt "#30326"
+msgid "Text"
+msgstr ""
+
+msgctxt "#30327"
+msgid "Phone number"
+msgstr ""
+
+msgctxt "#30328"
+msgid "URL"
+msgstr ""
+
+msgctxt "#30329"
+msgid "EMail"
+msgstr ""
+
+msgctxt "#30330"
+msgid "Numeric"
+msgstr ""
+
+msgctxt "#30331"
+msgid "Decimal"
+msgstr ""
+
+msgctxt "#30332"
+msgid "Search"
+msgstr ""
+
+#. Disable cookies use in settings
+#: web.browser.chromium/resources/settings.xml
+msgctxt "#30333"
+msgid "Use cookies"
+msgstr ""
+
+#. Disable cookies use help text in settings
+#: web.browser.chromium/resources/settings.xml
+msgctxt "#30334"
+msgid "Allow the storage and use of cookies."
+msgstr ""
+
+msgctxt "#31000"
+msgid "This is not a secure connection"
+msgstr ""
+
+msgctxt "#31001"
+msgid "Unauthorized third parties could attempt to steal your information from %s, Such as passwords, messages, or credit card data. %s\n\nThis server could not prove that it is %s. His security certificate comes from * .badssl.com. Possible reasons are an incorrect configuration or an attacker that intercepts your connection."
+msgstr ""
+
+msgctxt "#31002"
+msgid "Next (unsafe !!!)"
+msgstr ""
+
+msgctxt "#31003"
+msgid "Cancel load"
+msgstr ""
+
+
+#   FLAG(CERT_STATUS_COMMON_NAME_INVALID);
+#   FLAG(CERT_STATUS_DATE_INVALID);
+#   FLAG(CERT_STATUS_AUTHORITY_INVALID);
+#   FLAG(CERT_STATUS_NO_REVOCATION_MECHANISM);
+#   FLAG(CERT_STATUS_UNABLE_TO_CHECK_REVOCATION);
+#   FLAG(CERT_STATUS_REVOKED);
+#   FLAG(CERT_STATUS_INVALID);
+#   FLAG(CERT_STATUS_WEAK_SIGNATURE_ALGORITHM);
+#   FLAG(CERT_STATUS_NON_UNIQUE_NAME);
+#   FLAG(CERT_STATUS_WEAK_KEY);
+#   FLAG(CERT_STATUS_PINNED_KEY_MISSING);
+#   FLAG(CERT_STATUS_NAME_CONSTRAINT_VIOLATION);
+#   FLAG(CERT_STATUS_VALIDITY_TOO_LONG);
+#   FLAG(CERT_STATUS_IS_EV);
+#   FLAG(CERT_STATUS_REV_CHECKING_ENABLED);
+#   FLAG(CERT_STATUS_SHA1_SIGNATURE_PRESENT);
+#   FLAG(CERT_STATUS_CT_COMPLIANCE_FAILED);
+
+
+msgctxt "#56500"
+msgid "Open"
+msgstr ""
+
+msgctxt "#56501"
+msgid "Open on new Tab"
+msgstr ""
+
+msgctxt "#56502"
+msgid "Open Keyboard"
+msgstr ""

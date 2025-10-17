@@ -1,0 +1,128 @@
+<settings version="1">
+  <section id="addon" label="-1" help="-1">
+    <category id="main" label="128" help="-1">
+      <group id="1" label="-1">
+        <setting id="main.starturl" type="string" label="30188" help="-1">
+          <default>http://kodi.tv</default>
+          <control type="edit" format="string">
+            <heading>30189</heading>
+          </control>
+        </setting>
+      </group>
+      <group id="2" label="30041">
+        <setting id="main.editdialogdirect" type="boolean" label="30042" help="-1">
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+        <setting id="main.enable_extensions" type="boolean" label="30053" help="30054">
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+      </group>
+      <group id="3" label="30007">
+        <setting id="main.zoomlevel" type="integer" label="30004" help="-1">
+          <default>200</default>
+          <constraints>
+            <minimum>40</minimum>
+            <step>10</step>
+            <maximum>500</maximum>
+          </constraints>
+          <control type="spinner" format="string">
+            <formatlabel>30005</formatlabel>
+          </control>
+        </setting>
+        <setting id="main.zoom_step_size" type="integer" label="30006" help="-1">
+          <visible>false</visible>
+          <default>10</default>
+          <constraints>
+            <minimum>5</minimum>
+            <step>5</step>
+            <maximum>50</maximum>
+          </constraints>
+          <control type="spinner" format="string" />
+        </setting>
+        <setting id="main.allow_open_to_tabs" type="boolean" label="30039" help="-1">
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+      </group>
+    </category>
+    <category id="security" label="30008" help="-1">
+      <group id="1" label="30300">
+        <setting id="security.allow_cookies" type="boolean" label="30333" help="30334">
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+      </group>
+      <group id="2" label="30023">
+        <setting id="security.webaddon.access" type="integer" label="30024" help="30025">
+          <default>2</default>
+          <constraints>
+            <options>
+              <option label="30026">0</option>
+              <option label="30027">1</option>
+              <option label="30028">2</option>
+              <option label="30029">3</option>
+            </options>
+          </constraints>
+          <control type="spinner" format="integer" delayed="true"/>
+        </setting>
+      </group>
+    </category>
+    <category id="downloads" label="30009" help="-1">
+      <group id="1" label="-1">
+        <setting id="downloads.path" type="path" label="30011" help="-1">
+          <default></default>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="button" format="path">
+            <heading>657</heading>
+          </control>
+        </setting>
+        <setting id="downloads.askfolder" type="boolean" label="30010" help="-1">
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+      </group>
+    </category>
+    <category id="system" label="30190" help="-1">
+      <group id="1" label="30193">
+        <setting id="system.usewidevine" type="boolean" label="30194" help="30195">
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+      </group>
+      <group id="2" label="30191">
+        <setting id="system.uncaught_exception_stack_size" type="integer" label="30050" help="30051">
+          <default>0</default>
+          <constraints>
+            <minimum label="30052">0</minimum>
+            <step>1</step>
+            <maximum>100</maximum>
+          </constraints>
+          <control type="spinner" format="string" />
+        </setting>
+        <setting id="system.loglevelcef" type="integer" label="30200" help="-1">
+          <default>0</default>
+          <constraints>
+            <options>
+              <option label="30201">0</option>
+              <option label="30202">1</option>
+              <option label="30203">2</option>
+              <option label="30204">3</option>
+              <option label="30205">4</option>
+              <option label="30206">99</option>
+            </options>
+          </constraints>
+          <control type="list" format="string" />
+        </setting>
+        <setting id="system.mouse_cursor_change_disabled" type="boolean" label="30040" help="-1">
+          <visible>false</visible>
+          <default>false</default>
+          <control type="toggle" />
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>
