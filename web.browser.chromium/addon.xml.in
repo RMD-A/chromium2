@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon
   id="web.browser.chromium"
   version="0.0.7"
@@ -27,6 +27,7 @@ NOTE: This add-on is still in development and everything is currently possible (
     <source>https://github.com/AlwinEsch/web.browser.chromium</source>
     <assets>
       <icon>resources/icon.png</icon>
+      <fanart></fanart>
     </assets>
   </extension>
 </addon>
